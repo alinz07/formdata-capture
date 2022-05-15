@@ -1,0 +1,57 @@
+* {
+    font-weight: bold;
+}
+
+a {
+    color: darkslategray;
+}
+
+header a {
+    color: darkcyan;
+}
+
+header.bg-warning.py-3 {
+    border-bottom: 5px solid black;
+}
+
+main {
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.bg-info {
+    height: 500px;
+}
+
+.home-post-titles {
+    font-size: larger;
+}
+
+.login-form div {
+    padding: 10px;
+}
+
+.signup-form,
+.signup-form > h3 {
+    padding: 10px;
+}
+
+#signup-button {
+    margin-top: 10px;
+}
+
+#post-div {
+    background-color: #17a2b8;
+    padding: 20px 0 20px 0;
+    width: fit-content;
+}
+
+#dash-post,
+#edit-post,
+.home-post {
+    width: fit-content;
+}
+
+.new-post-form > * {
+    padding: 5px;
+}
