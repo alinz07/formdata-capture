@@ -1,8 +1,7 @@
 const router = require("express").Router();
-const sequelize = require("../../config/connection");
 const { FormSubs } = require("../../models");
 
-// get all users
+// get all formsubs
 router.get("/", (req, res) => {
     console.log("======================");
     FormSubs.findAll({})
